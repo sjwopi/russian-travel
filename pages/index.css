@@ -21,7 +21,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_weidht_400/intro__list-item_weidht_400.css);
+@import url(../blocks/intro/__list-item/_weidht/intro__list-item_weidht_400.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -45,6 +45,7 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links-item/footer__links-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
