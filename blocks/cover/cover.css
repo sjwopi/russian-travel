@@ -1,6 +1,5 @@
 .cover {
     margin: 0 24px 60px 24px;
-    display: flex;
     width: calc(100% - 48px);
     height: 740px;
     display: flex;
