@@ -3,3 +3,8 @@
     grid-column: 1/2;
     grid-row: 2/2;
 }
+@media screen and (max-width: 600px) {
+    .place__image {
+        margin-bottom: 32px;
+    }
+}
