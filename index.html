@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pages/index.css">
-    <title>Document</title>
+    <title>Russian travel</title>
 </head>
 
 <body class="root">
 
     <header class="header">
         <img src="img/__logo.svg" alt="лого" class="header__logo">
-        <div class="header__lang-links">
-            <a href="#" class="header__lang-link">Ru</a>
-            <a href="#" class="header__lang-link">En</a>
-        </div>
+        <ul class="header__list">
+            <li class="header__list-item list-item"><a href="#"
+                    class="header__lang-link header__lang-link_active link-hover">Ru</a></li>
+            <li class="header__list-item list-item"><a href="#" class="header__lang-link link-hover">En</a></li>
+        </ul>
     </header>
 
     <main class="content">
@@ -25,7 +26,7 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новосей, а здесь.</p>
             <img src="img/lead-photo.png" alt="декоративная картинка с путеводителем" class="lead__image">
-            <p class="lead__caption">ваша полка - верхняя</p>
+            <figcaption class="lead__caption">ваша полка - верхняя</figcaption>
         </section>
 
         <section class="intro">
@@ -38,34 +39,41 @@
                 в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                 интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__list-item">Часовых поясов <span class="intro__list-item intro__list-item_weidht_400">11</span></li>
-                <li class="intro__list-item"> Объектов природного наследия ЮНЕСКО <span class="intro__list-item intro__list-item_weidht_400">12</span></li>
-                <li class="intro__list-item">Объектов кулькурого наследия ЮНЕСКО <span class="intro__list-item intro__list-item_weidht_400">16</span></li>
-                <li class="intro__list-item">Природных заповедников <span class="intro__list-item intro__list-item_weidht_400">105</span></li>
-                <li class="intro__list-item">Аэропортов <span class="intro__list-item intro__list-item_weidht_400">241</span></li>
+                <li class="intro__list-item list-item">Часовых поясов <span
+                        class="intro__list-item weidht-400">11</span></li>
+                <li class="intro__list-item list-item"> Объектов природного наследия ЮНЕСКО <span
+                        class="intro__list-item weidht-400">12</span></li>
+                <li class="intro__list-item list-item">Объектов кулькурого наследия ЮНЕСКО <span
+                        class="intro__list-item weidht-400">16</span></li>
+                <li class="intro__list-item list-item">Природных заповедников <span
+                        class="intro__list-item weidht-400">105</span></li>
+                <li class="intro__list-item list-item">Аэропортов <span class="intro__list-item weidht-400">241</span>
+                </li>
             </ul>
         </section>
 
-        <section class="photo-grid">
-            <img src="img/item-1.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-2.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-3.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-4.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-5.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-6.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-7.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-8.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-9.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-10.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-11.png" alt="декор картинка" class="photo-grid__item">
-            <img src="img/item-12.png" alt="декор картинка" class="photo-grid__item">
+        <section class="photos">
+            <ul class="photo-grid">
+                <li class="list-item"><img src="img/item-1.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-2.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-3.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-4.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-5.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-6.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-7.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-8.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-9.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-10.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-11.png" alt="декор картинка" class="photo-grid__item"></li>
+                <li class="list-item"><img src="img/item-12.png" alt="декор картинка" class="photo-grid__item"></li>
+            </ul>
         </section>
 
         <section class="places">
-            <div class="place">
-                <h3 class="place__title">Куршская полоса</h3>
+            <article class="place">
+                <h2 class="place__title">Куршская полоса</h2>
                 <div class="place__website">
-                    <h4 class="place__url-heading">URL</h4>
+                    <h3 class="place__url-heading">URL</h3>
                     <a href="http://park-kosa.ru" class="place__link link-hover">park-kosa.ru</a>
                 </div>
 
@@ -81,12 +89,12 @@
                         небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие
                         природы и запах стального, прохладного моря.</p>
                 </div>
-            </div>
+            </article>
             <div class="place">
-                <h3 class="place__title">Кольский</h3>
+                <h2 class="place__title">Кольский</h2>
 
                 <div class="place__website">
-                    <h4 class="place__url-heading">URL</h4>
+                    <h3 class="place__url-heading">URL</h3>
                     <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                         class="place__link link-hover">National Geographic</a>
                 </div>
@@ -105,9 +113,9 @@
                 </div>
             </div>
             <div class="place">
-                <h3 class="place__title">Алтай</h3>
+                <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
-                    <h4 class="place__url-heading">URL</h4>
+                    <h3 class="place__url-heading">URL</h3>
                     <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                         class="place__link link-hover">Facebook</a>
                 </div>
@@ -125,10 +133,10 @@
                 </div>
             </div>
             <div class="place">
-                <h3 class="place__title">Зимний Байкал</h3>
+                <h2 class="place__title">Зимний Байкал</h2>
 
                 <div class="place__website">
-                    <h4 class="place__url-heading">URL</h4>
+                    <h3 class="place__url-heading">URL</h3>
                     <a href="https://vk.com/baikalmile" class="place__link link-hover">https://vk.com/baikalmile</a>
                 </div>
 
@@ -144,9 +152,9 @@
                 </div>
             </div>
             <div class="place">
-                <h3 class="place__title">Карелия</h3>
+                <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
-                    <h4 class="place__url-heading">URL</h4>
+                    <h3 class="place__url-heading">URL</h3>
                     <a href="http://vodlozero.ru" class="place__link link-hover">http://vodlozero.ru</a>
                 </div>
 
@@ -162,31 +170,37 @@
             </div>
 
         </section>
-
         <section class="cover">
-
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                на электричках.</h3>
-            <div class="cover__background">
-            </div>
-
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay link-hover"></a>
-
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+                <div class="cover__text">
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                        на электричках.</p>
+                </div>
+            </a>
         </section>
+
 
     </main>
 
 
     <footer class="footer">
-
-        <ul class="footer__links">
-            <li class="footer__links-item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-            <li class="footer__links-item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-            <li class="footer__links-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-            <li class="footer__links-item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-            <li class="footer__links-item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-        </ul>
+        <nav class="footer__links">
+            <ul class="footer__list">
+                <li class="footer__list-item list-item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+                </li>
+                <li class="footer__list-item list-item"><a class="footer__link"
+                        href="https://yandex.ru/pogoda">Погода</a></li>
+                <li class="footer__list-item list-item"><a class="footer__link"
+                        href="https://rasp.yandex.ru">Расписание</a></li>
+                <li class="footer__list-item list-item"><a class="footer__link"
+                        href="https://calendar.yandex.ru">Календарь</a>
+                </li>
+                <li class="footer__list-item list-item"><a class="footer__link"
+                        href="https://travel.yandex.ru">Путешествия</a>
+                </li>
+            </ul>
+        </nav>
 
         <p class="footer__copyright">© 2022. Иван Тетерук</p>
 
