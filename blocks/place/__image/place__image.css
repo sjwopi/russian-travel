@@ -1,10 +1,31 @@
 .place__image {
-    width: 100%;
+    max-width: 472px;
     grid-column: 1/2;
     grid-row: 2/2;
 }
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .place__image {
+        max-width: 360px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .place__image {
+        max-width: 290px;
+    }
+}
 @media screen and (max-width: 600px) {
     .place__image {
+        max-width: 100%;
         margin-bottom: 32px;
     }
 }
