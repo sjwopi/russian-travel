@@ -4,29 +4,27 @@
     margin: 0 auto 80px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 460px;
+    grid-template-rows: auto;
     row-gap: 50px;
-    grid-column-gap: 40px;
+    column-gap: 40px;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 768px) {
     .place {
-        column-gap: 20px;
-        margin: 0 24px 80px 24px;
-        grid-template-rows: 1fr 560px;
-        max-width: 928px;
+        margin: 0 auto 72px auto;
     }
 }
+
 @media screen and (max-width: 600px) {
     .place {
-        display: block;
         max-width: 100%;
-        padding: 0 24px;
         margin: 0;
+        display: block;
     }
 }
+
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
-        display: block;
     }
 }

@@ -7,18 +7,9 @@
     padding: 0;
     text-align: center;
 }
-@media screen and (max-width: 768px){
-    .lead__title {
-        font-size: 64px;
-        line-height: 68px;
-        margin: 0 0 22px 0;
-    }
-}
 @media screen and (max-width: 550px){
     .lead__title {
         padding: 0 24px;
-        font-size: 48px;
-        line-height: 52px;
     }
 }
 @media screen and (max-width: 425px){

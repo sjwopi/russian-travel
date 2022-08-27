@@ -5,7 +5,11 @@
     display: flex;
     justify-content: space-between;
 }
-
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 0 48px;
+    }
+}
 @media screen and (max-width: 768px) {
     .header {
         padding: 0 24px;

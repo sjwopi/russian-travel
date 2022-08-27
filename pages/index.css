@@ -4,8 +4,6 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/link-hover/link-hover.css);
 
-@import url(../blocks/list-item/list-item.css);
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__list/header__list.css);
@@ -24,11 +22,11 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-
-@import url(../blocks/weidht-400/weidnt-400.css);
+@import url(../blocks/intro/__digits/intro__digits.css);
 
 @import url(../blocks/photos/photos.css);
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list-item/photo-grid__list-item.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(../blocks/places/places.css);
